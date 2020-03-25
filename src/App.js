@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Components/Header";
+import Navigation from "./Components/Navigation";
+import Home from "./Components/Home";
+import Product from "./Components/Product";
+import Specalities from "./Components/Specalities";
+import { Achievements } from "./Components/Achievements";
+import { Blog } from "./Components/Blog";
+import { Team } from "./Components/Team";
+import { Contact } from "./Components/Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/" component={Home} exact />
+          {/* <Route path="/products" component={Product} /> */}
+          <Route path="/specalities" component={Specalities} />
+          <Route path="/achievements" component={Achievements} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/ourteam" component={Team} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </Router>
+      {/* 
+      <Home />
+      <Product />
+      <Specalities />
+      <Achievements />
+      <Blog /> */}
     </div>
   );
 }
