@@ -22,7 +22,7 @@ export default function Navigation() {
             <a href="/specalities">FEATURES</a>
           </li>
           <li>
-            <a href="/achievements">ACHIEVEMENT</a>
+            <a href="/achievements">ACHIEVEMENTS</a>
           </li>
           <li>
             <a href="/blog">BLOG</a>

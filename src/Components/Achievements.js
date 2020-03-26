@@ -7,6 +7,7 @@ export function Achievements() {
       <div className="container">
         <br></br>{" "}
         <ul className="nc">
+          <br></br>{" "}
           <li>
             National Champions - Clean Air Crowdsourcing Competition 2018, TERI,
             University Of Berkeley.
@@ -21,6 +22,7 @@ export function Achievements() {
           <br></br>
           <li>Finalists- E - Cell Bootcamp, 2019</li>
         </ul>
+        <img src={"images/layer-5.png"} alt="Achievements" className="ak"></img>
       </div>
     </div>
   );
