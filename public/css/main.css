@@ -4058,7 +4058,10 @@ padding-bottom: -3em !important }
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
-  display: block ruby
+  /* display: block ruby */
+}
+.c1{
+  display: block ruby 
 }
 .product{
 

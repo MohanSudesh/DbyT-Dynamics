@@ -4,7 +4,7 @@ export function Achievements() {
   return (
     <div id="features-wrapper">
       <p className="product">ACHIEVEMENTS</p>
-      <div className="container">
+      <div className="container c1">
         <br></br>{" "}
         <ul className="nc">
           <br></br>{" "}
