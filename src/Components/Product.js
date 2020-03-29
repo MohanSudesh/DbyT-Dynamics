@@ -1,70 +1,59 @@
-import React from "react";
+import React, { Component } from "react";
+import Card from "./Card";
+import CardData from "./Data";
 
-export default function Product() {
-  return (
-    <div id="features-wrapper">
-      <p className="product">OUR PRODUCTS</p>
-      <div className="container">
-        <div className="row">
-          <div id="b" className="sudesh6">
-            <section className="box feature">
-              <a href="#" className="image featured">
-                <img src="images/pic01.jpg" alt="" />
-              </a>
-              <div className="inner">
-                <header>
-                  <h2 className="dc">DC</h2>
-                  <p className="cf"></p>
-                </header>
-                <p className="pa">
-                  Do you feel that your pedaling efforts are getting wasted?
-                  Your energy never goes in vain as SPERO comes with a
-                  regeneration feature. You can charge the cycle with minimal
-                  pedaling.
-                </p>
-              </div>
-            </section>
-          </div>
-          <div id="b" className="sudesh7">
-            <section className="box1 feature">
-              <a href="#" className="image featured">
-                <img src="images/pic02.jpg" alt="" />
-              </a>
-              <div className="inner">
-                <header>
-                  <h2 className="dc">DC</h2>
-                  <p className="cf"></p>
-                </header>
-                <p className="pa">
-                  Do you feel that your pedaling efforts are getting wasted?
-                  Your energy never goes in vain as SPERO comes with a
-                  regeneration feature. You can charge the cycle with minimal
-                  pedaling.
-                </p>
-              </div>
-            </section>
-          </div>
-          <div id="b" className="sudesh8">
-            <section className="box feature">
-              <a href="#" className="image featured">
-                <img src="images/pic03.jpg" alt="" />
-              </a>
-              <div className="inner">
-                <header>
-                  <h2 className="dc">DC</h2>
-                  <p className="cf"></p>
-                </header>
-                <p className="pa">
-                  Do you feel that your pedaling efforts are getting wasted?
-                  Your energy never goes in vain as SPERO comes with a
-                  regeneration feature. You can charge the cycle with minimal
-                  pedaling.
-                </p>
-              </div>
-            </section>
+export default class Product extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      presentData: CardData[0],
+      totalData: CardData
+    };
+  }
+
+  prevProperty = () => {
+    const Index = this.state.presentData.index - 1;
+    this.setState({
+      presentData: CardData[Index - 1]
+    });
+  };
+  nextProperty = () => {
+    const Index = this.state.presentData.index + 1;
+    this.setState({
+      presentData: CardData[Index - 1]
+    });
+  };
+
+  render() {
+    const { presentData, totalData } = this.state;
+    return (
+      <div>
+        <h1>Our Products</h1>
+        <div className={`cardslider active-card-${presentData.index}`}>
+          <div
+            className="cards"
+            style={{
+              transform: `translateX(-${presentData.index * 10}%)`
+            }}
+          >
+            {CardData.map(data => (
+              <Card {...data} key={data.id} />
+            ))}
           </div>
         </div>
+        <button
+          onClick={() => this.prevProperty()}
+          disabled={presentData.index === 1}
+        >
+          Prev
+        </button>
+        <button
+          onClick={() => this.nextProperty()}
+          disabled={presentData.index === 10}
+        >
+          Next
+        </button>
       </div>
-    </div>
-  );
+    );
+  }
 }

@@ -4286,16 +4286,106 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #155a51;
 }
+
+#home {
+  background-color: #624ab6 !important;
+  text-align: center;
+}
+
+#home h1 {
+  margin-top: 40px;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 450;
+}
+#home button {
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cardslider {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  /* background-color: #128777 !important; */
+}
+
+.cardslider.active-card-1 #card1 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-2 #card2 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-3 #card3 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-4 #card4 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-5 #card5 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-6 #card6 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-7 #card7 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-8 #card8 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-9 #card9 {
+  opacity: 1;
+  transform: scale(1);
+}
+.cardslider.active-card-10 #card10 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* .cardslider div::after {
+  content: "";
+  display: block;
+  outline: 5px bold black;
+} */
+
 .cards {
+  display: flex;
+  justify-content: space-between !important;
+  position: absolute;
+  left: 63%;
+
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.cards h1 {
+  text-align: center;
 }
 .card {
+  flex: 1;
+  min-width: 400px;
   width: 25%;
   margin: auto;
   background-color: #71a0f1;
   margin-bottom: 25px;
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.78);
+  opacity: 0.6;
+  transform: scale(0.8);
+  box-shadow: none;
   font-weight: bold;
+  transition: opacity 300ms linear, border-color 300ms linear,
+    background-color 300ms linear,
+    transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .image img {

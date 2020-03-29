@@ -1,17 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 import Product from "./Product";
 
-export default function Home() {
-  return (
-    <div>
-      <div id="c">
-        <img
-          src={"images/hd-electric-concept-2.png"}
-          className="d"
-          alt="hd-electric-concept"
-        ></img>
+class Home extends Component {
+  render() {
+    return (
+      <div id="home">
+        <div id="c">
+          <img
+            src={"images/hd-electric-concept-2.png"}
+            className="d"
+            alt="hd-electric-concept"
+          ></img>
+        </div>
+
+        <Product />
       </div>
-      <Product />
-    </div>
-  );
+    );
+  }
 }
+
+export default Home;
