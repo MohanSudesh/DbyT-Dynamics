@@ -3,16 +3,16 @@ import React from "react";
 export default function Navigation() {
   return (
     <div>
-      <nav id="nav" className="sudesh1">
-        <ul className="sudesh4">
+      <nav id="nav">
+        {/* <ul className="sudesh4">
           <li>
             <a href="#intro">Sign In</a>
           </li>
           <li>
             <a href="#first">USA(English)</a>
           </li>
-        </ul>
-        <ul className="sudesh5">
+        </ul> */}
+        <ul>
           <li>
             <a href="/" className="active">
               HOME
