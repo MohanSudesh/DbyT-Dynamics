@@ -6,7 +6,7 @@ export function Contact() {
       <footer id="footer">
         <section>
           <h2>Contact Us</h2>
-          <dl class="alt">
+          <dl className="alt">
             <dt>Address:</dt>
             <dd> IITM, Chennai</dd>
             <dt>Phone:</dt>
@@ -19,30 +19,30 @@ export function Contact() {
             </dd>
           </dl>
 
-          <ul class="icons">
+          <ul className="icons">
             <li>
-              <a href="#" class="icon brands fa-twitter alt">
-                <span class="label">Twitter</span>
+              <a href="#" className="icon brands fa-twitter alt">
+                <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-facebook-f alt">
-                <span class="label">Facebook</span>
+              <a href="#" className="icon brands fa-facebook-f alt">
+                <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-instagram alt">
-                <span class="label">Instagram</span>
+              <a href="#" className="icon brands fa-instagram alt">
+                <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-github alt">
-                <span class="label">GitHub</span>
+              <a href="#" className="icon brands fa-github alt">
+                <span className="label">GitHub</span>
               </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-dribbble alt">
-                <span class="label">Dribbble</span>
+              <a href="#" className="icon brands fa-dribbble alt">
+                <span className="label">Dribbble</span>
               </a>
             </li>
           </ul>
@@ -50,7 +50,7 @@ export function Contact() {
         <section>
           <h2>From the Blog</h2>
           <h5> Blog Post Title</h5>
-          <h8>Posted by Admin on 00.00.0000</h8>
+          <h5>Posted by Admin on 00.00.0000</h5>
 
           <p className="aa">
             <br></br>
