@@ -28,7 +28,7 @@ export default class Product extends Component {
     const { presentData, totalData } = this.state;
     return (
       <div>
-        <h1>Our Products</h1>
+        <h2>Our Products</h2>
         <div className={`cardslider active-card-${presentData.index}`}>
           <div
             className="cards"
@@ -37,7 +37,7 @@ export default class Product extends Component {
             }}
           >
             {CardData.map(data => (
-              <Card {...data} key={data.id} />
+              <Card {...data} key={data._id} />
             ))}
           </div>
         </div>
