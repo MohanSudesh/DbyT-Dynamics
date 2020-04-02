@@ -2,9 +2,9 @@ import React from "react";
 
 export function Team() {
   return (
-    <div id="features-wrapper" className="s">
+    <div id="ourteam" className="s">
       <p className="rb">MEET THE TEAM</p>
-      <div className="container">
+      <div className="container1">
         <p className="b">
           {" "}
           Far far away, behind the word mountains, far from the countries

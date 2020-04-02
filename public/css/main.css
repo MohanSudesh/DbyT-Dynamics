@@ -95,6 +95,9 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  overflow-x: hidden;
+  /* max-width: 100% !important; */
+  height: auto !important;
 }
 
 article,
@@ -307,6 +310,7 @@ h6 {
   line-height: 1.5;
   margin: 0 0 0.7em 0;
   letter-spacing: -0.025em;
+  /* height: auto !important; */
 }
 
 h1 a,
@@ -2042,7 +2046,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: red;
+  background-color: #71a0f1;
 }
 
 input[type="submit"]:active,
@@ -2050,7 +2054,7 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: red;
+  background-color: #71a0f1;
 }
 
 input[type="submit"].icon:before,
@@ -3189,7 +3193,7 @@ table.alt tbody tr td {
   padding: 1em 0em 0em 1em;
   text-align: left;
   background-color: #ffffff;
-  height: 75px;
+
   width: 52em;
   vertical-align: middle;
 
@@ -3923,6 +3927,7 @@ body.is-preload #header.alt .logo {
 }
 #c {
   margin-top: 77px;
+  /* height: 630px !important; */
 }
 .d {
   width: 100% !important;
@@ -4040,22 +4045,31 @@ body.is-preload #header.alt .logo {
 }
 .s {
   background-color: #b7d3dc !important;
+  padding-bottom: 10em;
 }
 .st {
   background-color: #201e1d !important;
-  padding-top: 10em !important;
+  padding-bottom: 1em;
 }
 .container {
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
+  margin-top: -90px;
+  /* display: block ruby */
+}
+.container1 {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+  margin-bottom: 120px;
   /* display: block ruby */
 }
 .c1 {
   display: block ruby;
 }
 .product {
-  width: 293px;
+  width: 350px;
   height: 31px;
   font-family: OpenSans;
   font-size: 41px;
@@ -4203,7 +4217,7 @@ body.is-preload #header.alt .logo {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: rgba(0, 0, 0, 0.7);
+  color: black !important;
 }
 
 .nc {
@@ -4245,7 +4259,7 @@ body.is-preload #header.alt .logo {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #222222;
+  color: #222222 !important;
   margin-left: 0em !important;
   margin-bottom: 0em !important;
   margin-top: 2em !important;
@@ -4297,6 +4311,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 70px;
   text-align: center;
   font-weight: 450;
+  height: 90px !important;
 }
 #home button {
   align-items: center;
@@ -4307,7 +4322,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   position: relative;
   margin: 0 auto;
-  height: 600px;
+  height: 600px !important;
   /* background-color: #128777 !important; */
 }
 
@@ -4410,4 +4425,13 @@ body::-webkit-scrollbar-thumb:hover {
 
 .description a {
   font-size: 12px !important;
+}
+
+#blog {
+  background-color: white;
+}
+
+#specalities {
+  background-color: white;
+  padding-top: 1px;
 }

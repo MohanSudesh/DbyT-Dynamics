@@ -19,19 +19,19 @@ export default function Navigation() {
             </a>
           </li>
           <li>
-            <a href="/specalities">FEATURES</a>
+            <a href="#specalities">FEATURES</a>
           </li>
           <li>
-            <a href="/achievements">ACHIEVEMENTS</a>
+            <a href="#achievements">ACHIEVEMENTS</a>
           </li>
           <li>
-            <a href="/blog">BLOG</a>
+            <a href="#blog">BLOG</a>
           </li>
           <li>
-            <a href="/ourteam">OUR TEAM</a>
+            <a href="#ourteam">OUR TEAM</a>
           </li>
           <li>
-            <a href="/contact">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </nav>

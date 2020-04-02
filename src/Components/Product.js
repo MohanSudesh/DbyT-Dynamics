@@ -44,12 +44,14 @@ export default class Product extends Component {
         <button
           onClick={() => this.prevProperty()}
           disabled={presentData.index === 1}
+          className="but"
         >
           Prev
         </button>
         <button
           onClick={() => this.nextProperty()}
           disabled={presentData.index === 10}
+          className="but"
         >
           Next
         </button>

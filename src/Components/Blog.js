@@ -2,9 +2,9 @@ import React from "react";
 
 export function Blog() {
   return (
-    <div id="features-wrapper">
+    <div id="blog">
       <p className="rb">READ OUR BLOG</p>
-      <div className="container">
+      <div className="container1">
         <p className="b">
           {" "}
           Far far away, behind the word mountains, far from the countries

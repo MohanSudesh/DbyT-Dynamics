@@ -2,7 +2,7 @@ import React from "react";
 
 export function Contact() {
   return (
-    <div id="features-wrapper" className="st">
+    <div id="contact" className="st">
       <footer id="footer">
         <section>
           <h2>Contact Us</h2>

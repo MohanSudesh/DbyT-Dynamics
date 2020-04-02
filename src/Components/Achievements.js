@@ -2,9 +2,9 @@ import React from "react";
 
 export function Achievements() {
   return (
-    <div id="features-wrapper">
+    <div id="achievements">
       <p className="product">ACHIEVEMENTS</p>
-      <div className="container c1">
+      <div className="container1 c1">
         <br></br>{" "}
         <ul className="nc">
           <br></br>{" "}
