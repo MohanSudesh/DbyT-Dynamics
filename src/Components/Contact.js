@@ -56,6 +56,9 @@ export function Contact() {
             <br></br>
             Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean
             elit intesque sed facilispede estibulum.
+            {/* <a href="mailto:mohansudesh@example.com?subject=Mail from our Website">
+              Send Email
+            </a> */}
           </p>
         </section>
       </footer>

@@ -33,6 +33,9 @@ export default function Navigation() {
           <li>
             <a href="#contact">CONTACT</a>
           </li>
+          {/* <li>
+            <a href="#contact">SEARCH</a>
+          </li> */}
         </ul>
       </nav>
     </div>
