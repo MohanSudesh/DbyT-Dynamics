@@ -2218,6 +2218,9 @@ body.is-preload #header.alt .logo {
   background-color: #ffffff;
   color: #222222;
   box-shadow: none;
+  /* transition: opacity 300ms linear, border-color 300ms linear,
+    background-color 300ms linear,
+    transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955) !important; */
 }
 #nav {
   background-color: #128777;

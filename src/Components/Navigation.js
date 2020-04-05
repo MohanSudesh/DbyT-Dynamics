@@ -15,24 +15,34 @@ export default function Navigation() {
         </ul> */}
         <ul>
           <li>
-            <NavLink to="/" exact>
+            <NavLink to="/" exact activeClassName="active">
               HOME
             </NavLink>
           </li>
           <li>
-            <NavLink to="/specalities">FEATURES</NavLink>
+            <NavLink to="/specalities" activeClassName="active">
+              FEATURES
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/achievements">ACHIEVEMENTS</NavLink>
+            <NavLink to="/achievements" activeClassName="active">
+              ACHIEVEMENTS
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/blog">BLOG</NavLink>
+            <NavLink to="/blog" activeClassName="active">
+              BLOG
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/ourteam">OUR TEAM</NavLink>
+            <NavLink to="/ourteam" activeClassName="active">
+              OUR TEAM
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">CONTACT</NavLink>
+            <NavLink to="/contact" activeClassName="active">
+              CONTACT
+            </NavLink>
           </li>
           {/* <li>
             <a href="#contact">SEARCH</a>
