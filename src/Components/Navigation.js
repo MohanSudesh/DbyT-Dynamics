@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -14,24 +15,24 @@ export default function Navigation() {
         </ul> */}
         <ul>
           <li>
-            <a href="/" className="active">
+            <NavLink to="/" exact>
               HOME
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/specalities">FEATURES</a>
+            <NavLink to="/specalities">FEATURES</NavLink>
           </li>
           <li>
-            <a href="/achievements">ACHIEVEMENTS</a>
+            <NavLink to="/achievements">ACHIEVEMENTS</NavLink>
           </li>
           <li>
-            <a href="/blog">BLOG</a>
+            <NavLink to="/blog">BLOG</NavLink>
           </li>
           <li>
-            <a href="/ourteam">OUR TEAM</a>
+            <NavLink to="/ourteam">OUR TEAM</NavLink>
           </li>
           <li>
-            <a href="/contact">CONTACT</a>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
           {/* <li>
             <a href="#contact">SEARCH</a>
