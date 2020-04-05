@@ -3,7 +3,7 @@ import React from "react";
 export function Blog() {
   return (
     <div id="blog">
-      <p className="rb">READ OUR BLOG</p>
+      <p className="product">READ OUR BLOG</p>
       <div className="container1">
         <p className="b">
           {" "}

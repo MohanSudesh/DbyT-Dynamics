@@ -9,7 +9,7 @@ export default function Header() {
             <img src="images\color-fill-2.png" alt="DbyT Dynamics" />
           </li>
           <li className="right">
-            <a href="#" className="icon brands fa-twitter alt">
+            <a href="#" className="icon brands fa-twitter alt" target="_blank">
               <span className="label">Twitter</span>
             </a>
           </li>
@@ -17,25 +17,31 @@ export default function Header() {
             <a
               href="https://www.facebook.com/dbytdynamics/"
               className="icon brands fa-facebook alt"
+              target="_blank"
             >
               <span className="label">Facebook</span>
             </a>
           </li>
           <li className="right2">
-            <a href="#" className="icon brands fa-instagram alt">
+            <a
+              href="#"
+              className="icon brands fa-instagram alt"
+              target="_blank"
+            >
               <span className="label">Instagram</span>
             </a>
           </li>
           <li className="right3">
             <a
               href="https://www.linkedin.com/company/dbyt-dynamics"
+              target="_blank"
               className="icon brands fa-linkedin alt"
             >
               <span className="label">GitHub</span>
             </a>
           </li>
           <li className="right4">
-            <a href="#" className="icon brands fa-youtube alt">
+            <a href="#" className="icon brands fa-youtube alt" target="_blank">
               <span className="label">Dribbble</span>
             </a>
           </li>

@@ -15,25 +15,25 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <Router> */}
-      <Navigation />
-      {/* <Switch>
-          <Route path="/" component={Home} exact /> */}
-      {/* <Route path="/products" component={Product} /> */}
-      {/* <Route path="/specalities" component={Specalities} />
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/products" component={Product} />
+          <Route path="/specalities" component={Specalities} />
           <Route path="/achievements" component={Achievements} />
           <Route path="/blog" component={Blog} />
           <Route path="/ourteam" component={Team} />
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
-    */}
-      <Home />
+
+      {/* <Home />
       <Specalities />
       <Achievements />
       <Blog />
       <Team />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
