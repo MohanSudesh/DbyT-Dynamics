@@ -3240,35 +3240,48 @@ body::-webkit-scrollbar-thumb:hover {
 #f ul {
   display: flex;
   margin: 0 0 0 0 !important;
-  padding: 0.5em 0 3.5em 0;
+  padding: 0.5em 0 0.5em 0;
   background-color: white;
 
   /* justify-content: space-around; */
-  margin-top: 6px;
+  /* margin-top: 6px; */
 }
 #f .left {
-  position: absolute;
-  right: 77%;
+  /* position: absolute; */
+  /* right: 77%; */
+  float: left;
+  width: 30%;
+  margin-right: 660px;
 }
 #f .right {
-  position: absolute;
-  left: 79%;
+  /* position: absolute;
+  left: 79%; */
+  float: left;
+  width: 5%;
 }
 #f .right1 {
-  position: absolute;
-  left: 83%;
+  /* position: absolute;
+  left: 83%; */
+  float: left;
+  width: 5%;
 }
 #f .right2 {
-  position: absolute;
-  left: 87%;
+  /* position: absolute;
+  left: 87%; */
+  float: left;
+  width: 5%;
 }
 #f .right3 {
-  position: absolute;
-  left: 91%;
+  /* position: absolute;
+  left: 91%; */
+  float: left;
+  width: 5%;
 }
 #f .right4 {
-  position: absolute;
-  left: 95%;
+  /* position: absolute;
+  left: 95%; */
+  float: left;
+  width: 5%;
 }
 
 #f a:hover {
@@ -3284,4 +3297,40 @@ body::-webkit-scrollbar-thumb:hover {
   padding-top: 2em;
   margin-top: 3em;
   /* padding-bottom: 1570px; */
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  #f .right {
+    display: none;
+  }
+  #f .right1 {
+    display: none;
+  }
+  #f .right2 {
+    display: none;
+  }
+  #f .right3 {
+    display: none;
+  }
+  #f .right4 {
+    display: none;
+  }
+  #f ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* width: 100% !important; */
+  }
+
+  #f .left {
+    float: left !important;
+    width: 100%;
+    margin: 0.5em 1em 0.5em 1em !important;
+  }
+  #f img {
+    width: 100%;
+    transform: scale(0.8);
+  }
 }
