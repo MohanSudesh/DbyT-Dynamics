@@ -3278,6 +3278,9 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 3em;
   /* padding-bottom: 1570px; */
 }
+#f .hamburger {
+  display: none;
+}
 
 @media screen and (max-width: 480px) {
   body {
@@ -3317,10 +3320,24 @@ body::-webkit-scrollbar-thumb:hover {
   #f .hamburger {
     position: absolute !important;
     cursor: pointer !important;
-    left: 4% !important;
+    left: 0% !important;
     top: 50% !important;
     transform: translate(-4%, -50%) !important;
     z-index: 2 !important;
+    display: inline;
     /* background-color: blue; */
+  }
+
+  .nav-links {
+    align-items: center;
+    position: fixed !important;
+    background: #128777 !important;
+    height: 100vh !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    /* clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none; */
   }
 }

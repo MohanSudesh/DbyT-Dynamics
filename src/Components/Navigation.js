@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div>
       <nav id="nav">
-        <ul>
+        <ul className="nav-links">
           <li>
             <NavLink to="/" exact activeClassName="active">
               HOME

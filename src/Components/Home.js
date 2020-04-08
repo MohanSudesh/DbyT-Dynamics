@@ -13,7 +13,7 @@ class Home extends Component {
           ></img>
         </div>
 
-        <Product />
+        {/* <Product /> */}
       </div>
     );
   }
