@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Navigation from "./Navigation";
 
 export default class Header extends Component {
   constructor(props) {
@@ -7,12 +8,21 @@ export default class Header extends Component {
       toggle: false,
     };
   }
-  handletoggle = (prevState) => {
+  handletoggle = () => {
     this.setState({
-      toggle: !prevState.toggle,
+      toggle: !this.state.toggle,
     });
   };
+
+  //   = (prevState) => {
+  //     return { toggle: !prevState.toggle };
+  //   };
+  // };
   render() {
+    let sidedrawer;
+    if (this.state.toggle) {
+      sidedrawer = <Navigation closetoggle={this.handletoggle} />;
+    }
     return (
       <div>
         <nav id="f">
@@ -74,6 +84,10 @@ export default class Header extends Component {
             </li>
           </ul>
         </nav>
+        <div className="full">
+          <Navigation />
+        </div>
+        <div className="hide">{sidedrawer}</div>
       </div>
     );
   }
