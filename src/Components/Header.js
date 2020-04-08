@@ -4,16 +4,23 @@ export default function Header() {
   return (
     <div>
       <nav id="f">
-        <ul>
-          <li className="left">
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul className="left">
+          <li>
             <img src="images\color-fill-2.png" alt="DbyT Dynamics" />
           </li>
-          <li className="right">
+        </ul>
+        <ul className="right">
+          <li>
             <a href="#" className="icon brands fa-twitter alt" target="_blank">
               <span className="label">Twitter</span>
             </a>
           </li>
-          <li className="right1">
+          <li>
             <a
               href="https://www.facebook.com/dbytdynamics/"
               className="icon brands fa-facebook alt"
@@ -22,7 +29,7 @@ export default function Header() {
               <span className="label">Facebook</span>
             </a>
           </li>
-          <li className="right2">
+          <li>
             <a
               href="#"
               className="icon brands fa-instagram alt"
@@ -31,7 +38,7 @@ export default function Header() {
               <span className="label">Instagram</span>
             </a>
           </li>
-          <li className="right3">
+          <li>
             <a
               href="https://www.linkedin.com/company/dbyt-dynamics"
               target="_blank"
@@ -40,7 +47,7 @@ export default function Header() {
               <span className="label">GitHub</span>
             </a>
           </li>
-          <li className="right4">
+          <li>
             <a href="#" className="icon brands fa-youtube alt" target="_blank">
               <span className="label">Dribbble</span>
             </a>

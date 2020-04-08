@@ -5,14 +5,6 @@ export default function Navigation() {
   return (
     <div>
       <nav id="nav">
-        {/* <ul className="sudesh4">
-          <li>
-            <a href="#intro">Sign In</a>
-          </li>
-          <li>
-            <a href="#first">USA(English)</a>
-          </li>
-        </ul> */}
         <ul>
           <li>
             <NavLink to="/" exact activeClassName="active">

@@ -3236,6 +3236,9 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 1.5em;
   /* padding-bottom: 1570px; */
 }
+#f {
+  background-color: white !important;
+}
 
 #f ul {
   display: flex;
@@ -3246,42 +3249,19 @@ body::-webkit-scrollbar-thumb:hover {
   /* justify-content: space-around; */
   /* margin-top: 6px; */
 }
+#f nav {
+  width: 100%;
+}
 #f .left {
   /* position: absolute; */
   /* right: 77%; */
   float: left;
   width: 30%;
-  margin-right: 660px;
+  margin-right: 750px !important;
 }
 #f .right {
-  /* position: absolute;
-  left: 79%; */
-  float: left;
-  width: 5%;
-}
-#f .right1 {
-  /* position: absolute;
-  left: 83%; */
-  float: left;
-  width: 5%;
-}
-#f .right2 {
-  /* position: absolute;
-  left: 87%; */
-  float: left;
-  width: 5%;
-}
-#f .right3 {
-  /* position: absolute;
-  left: 91%; */
-  float: left;
-  width: 5%;
-}
-#f .right4 {
-  /* position: absolute;
-  left: 95%; */
-  float: left;
-  width: 5%;
+  display: flex !important;
+  list-style: none !important;
 }
 
 #f a:hover {
@@ -3303,20 +3283,11 @@ body::-webkit-scrollbar-thumb:hover {
   body {
     overflow-x: hidden !important;
   }
+  nav {
+    position: relative;
+  }
   #f .right {
-    display: none;
-  }
-  #f .right1 {
-    display: none;
-  }
-  #f .right2 {
-    display: none;
-  }
-  #f .right3 {
-    display: none;
-  }
-  #f .right4 {
-    display: none;
+    display: none !important;
   }
   #f ul {
     margin: 0 !important;
@@ -3325,12 +3296,31 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   #f .left {
-    float: left !important;
-    width: 100%;
+    float: right;
+    list-style: none;
+    width: 80%;
     margin: 0.5em 1em 0.5em 1em !important;
+    text-align: center !important;
   }
   #f img {
     width: 100%;
-    transform: scale(0.8);
+    transform: scale(0.9);
+  }
+
+  #f .line {
+    width: 30px !important;
+    height: 3px !important;
+    background-color: black !important;
+    margin: 5px !important;
+  }
+
+  #f .hamburger {
+    position: absolute !important;
+    cursor: pointer !important;
+    left: 4% !important;
+    top: 50% !important;
+    transform: translate(-4%, -50%) !important;
+    z-index: 2 !important;
+    /* background-color: blue; */
   }
 }
