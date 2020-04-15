@@ -3339,4 +3339,45 @@ body::-webkit-scrollbar-thumb:hover {
     margin: 0 !important;
     width: 90% !important;
   }
+  #ourteam {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .product {
+    margin-bottom: 0 !important;
+    font-size: 25px !important;
+    margin-top: 3.9em !important;
+  }
+  .container1 {
+    font-size: 16px !important;
+  }
+  .b {
+    margin-top: 0em !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    padding: 20px !important;
+  }
+  .sudesha {
+    width: 90% !important;
+    padding: 0 0 0.8em 0 !important;
+    margin: 0 !important;
+  }
+  #blog .product {
+    margin-top: 2.8em !important;
+  }
+  .row {
+    padding-top: 20px;
+  }
+  .sudesh6 {
+    width: 90% !important;
+    padding: 0 0 0.8em 0 !important;
+    margin: 0 !important;
+  }
+  .inner {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .pa {
+    font-size: 20px !important;
+  }
 }
