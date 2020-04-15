@@ -831,7 +831,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: #71a0f1;
+  background-color: #ffffff !important;
 }
 
 input[type="submit"]:active,
@@ -839,7 +839,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: #71a0f1;
+  /* color: white !important; */
+  background-color: #ffffff !important;
 }
 
 input[type="submit"].icon:before,
@@ -865,7 +866,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #9acff2;
+  background-color: #ffffff !important;
 }
 
 input[type="submit"].primary:active,
@@ -873,7 +874,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: yellow;
+  background-color: #ffffff !important;
 }
 
 input[type="submit"].primary.icon:before,
@@ -3306,7 +3307,7 @@ body::-webkit-scrollbar-thumb:hover {
   #f .left {
     float: right;
     list-style: none;
-    width: 80%;
+    width: 70%;
     margin: 0.5em 1em 0.5em 1em !important;
     text-align: center !important;
   }
@@ -3316,7 +3317,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   #f .line {
-    width: 30px !important;
+    width: 25px !important;
     height: 3px !important;
     background-color: black !important;
     margin: 5px !important;
@@ -3380,5 +3381,14 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .hide {
     display: block !important;
+  }
+  #c {
+    margin-top: 0px !important;
+  }
+  #home body {
+    background-color: #128777 !important;
+  }
+  #home {
+    padding-bottom: 100px !important;
   }
 }
