@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <div id="contact" className="st">
       <footer id="footer">
-        <section>
+        <div>
           <h2>Contact Us</h2>
           <dl className="alt">
             <dt>Address:</dt>
@@ -46,8 +46,8 @@ export function Contact() {
               </a>
             </li>
           </ul>
-        </section>
-        <section>
+        </div>
+        <div>
           <h2>From the Blog</h2>
           <h5> Blog Post Title</h5>
           <h5>Posted by Admin on 00.00.0000</h5>
@@ -60,7 +60,7 @@ export function Contact() {
               Send Email
             </a> */}
           </p>
-        </section>
+        </div>
       </footer>
     </div>
   );

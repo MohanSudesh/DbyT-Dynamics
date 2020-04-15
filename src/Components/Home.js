@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Product from "./Product";
 
 class Home extends Component {
   render() {
@@ -12,8 +11,6 @@ class Home extends Component {
             alt="hd-electric-concept"
           ></img>
         </div>
-
-        <Product />
       </div>
     );
   }

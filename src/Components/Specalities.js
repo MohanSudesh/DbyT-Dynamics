@@ -1,8 +1,10 @@
 import React from "react";
+import Product from "./Product";
 
-export default function Product() {
+export default function Specalities() {
   return (
     <div id="specalities">
+      <Product />
       <p className="product">OUR SPECALITIES</p>
       <div className="container">
         <div className="row">
