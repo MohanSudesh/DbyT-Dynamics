@@ -3216,13 +3216,17 @@ body::-webkit-scrollbar-thumb:hover {
 .but {
   text-align: center !important;
   color: #222222 !important;
-  margin-left: 650px !important;
+  /* margin-left: 650px !important; */
   font-weight: 700 !important;
 }
 .but1 {
   text-align: center !important;
   color: #222222 !important;
   font-weight: 700 !important;
+}
+
+#specalities div {
+  text-align: center !important;
 }
 
 #blog {
@@ -3418,9 +3422,57 @@ body::-webkit-scrollbar-thumb:hover {
     list-style: square !important;
   }
   .ak {
-    align-items: center !important;
+    text-align: center !important;
     display: block !important;
+    width: 90% !important;
+    margin-top: 1.5em !important;
+    padding: 0 !important;
+    margin-left: 16px !important;
+  }
+  .prod {
+    font-size: 30px !important;
+  }
+  .card {
     width: 100% !important;
-    margin-top: 7em !important;
+    min-width: 250px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .cards {
+    position: absolute !important;
+    left: 93% !important;
+  }
+  .cardslider {
+    margin-bottom: 0px !important;
+    height: 500px !important;
+  }
+  .pro {
+    height: 610px !important;
+  }
+  .product {
+    margin-top: 2em !important;
+    font-size: 28px !important;
+  }
+  #specalities .container {
+    margin-top: 20px !important;
+  }
+  /* #b.sudesh6 {
+    padding: 2em !important;
+  } */
+  #b.sudesh7 {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 90% !important;
+    font-size: 14px !important;
+  }
+  #b.sudesh8 {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 50px !important;
+    width: 90% !important;
+    font-size: 14px !important;
+  }
+  .box {
+    padding: 2em !important;
   }
 }
