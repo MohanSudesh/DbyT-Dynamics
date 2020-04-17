@@ -7,36 +7,36 @@ export default class Product extends Component {
     super(props);
     this.state = {
       presentData: CardData[0],
-      totalData: CardData
+      totalData: CardData,
     };
   }
 
   prevProperty = () => {
     const Index = this.state.presentData.index - 1;
     this.setState({
-      presentData: CardData[Index - 1]
+      presentData: CardData[Index - 1],
     });
   };
   nextProperty = () => {
     const Index = this.state.presentData.index + 1;
     this.setState({
-      presentData: CardData[Index - 1]
+      presentData: CardData[Index - 1],
     });
   };
 
   render() {
     const { presentData, totalData } = this.state;
     return (
-      <div>
-        <h2>Our Products</h2>
+      <div className="pro">
+        <h2 className="prod">OUR PRODUCTS</h2>
         <div className={`cardslider active-card-${presentData.index}`}>
           <div
             className="cards"
             style={{
-              transform: `translateX(-${presentData.index * 10}%)`
+              transform: `translateX(-${presentData.index * 10}%)`,
             }}
           >
-            {CardData.map(data => (
+            {CardData.map((data) => (
               <Card {...data} key={data._id} />
             ))}
           </div>
@@ -51,7 +51,7 @@ export default class Product extends Component {
         <button
           onClick={() => this.nextProperty()}
           disabled={presentData.index === 10}
-          className="but"
+          className="but1"
         >
           Next
         </button>
